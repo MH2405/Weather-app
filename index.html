@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="weather">
+        <input type="text" class="search" placeholder="dia diem">
+        <div class="content">
+            <h1 class="capital">
+                <span class="city">Hanoi</span>
+                <span>,</span>
+                <span class="country">vn</span>
+            </h1>
+
+            <div class="time">11/11/2022, 3:15:45 am</div>
+            <div class="temperature">
+                <span class="value">23 <sup>o</sup>C</span>
+            </div>
+
+            <div class="short-desc">Clouds</div>
+            <div class="more-desc">
+                <div class="visibility">
+                    <i class='bx bx-cloud'></i>
+                    <span>1000m</span>
+                </div>
+                <div class="wind">
+                    <i class='bx bx-wind'></i>
+                    <span>1.2m/s</span>
+                </div>
+                <div class="sun">
+                    <i class='bx bx-sun' ></i>
+                    <span>68%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
